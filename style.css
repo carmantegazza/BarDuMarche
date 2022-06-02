@@ -39,7 +39,7 @@ h2 {
 body {
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
-    height: auto;
+    height: 100vh;
     width: auto;
     display: flex;
     flex-direction: column;
