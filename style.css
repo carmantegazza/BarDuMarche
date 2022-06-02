@@ -41,7 +41,9 @@ body {
     font-size: 25px;
     height: auto;
     width: auto;
-    margin: 1.5vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: #F7F7F7;
 }
 
