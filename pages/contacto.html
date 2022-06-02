@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Bar du Marche > Contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav class="encabezado">
+            <h1 class="encabezado__titulo">BAR DU MARCHE</h1>
+            <ul class="encabezado__menu">
+                <li class="encabezado__menu__item"><a href="../index.html">Home</a></li>
+                <li class="encabezado__menu__item"><a href="./comer.html">Comer</a></li>
+                <li class="encabezado__menu__item"><a href="./beber.html">Beber</a></li>
+                <li class="encabezado__menu__item"><a href="./nosotros.html">Nosotros</a></li>
+                <li class="encabezado__menu__item"><a href="./donde-estamos.html">Donde Estamos</a></li>
+                <li class="paginaActual">Contacto</li>
+            </ul>
+            <!--el a es provisorio, se reemplaza por menu burger-->
+            <a class="home__mobile" href="../index.html">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="pagina__contenedor" id="mainContacto">
+            <div class="contenedor__grande">
+                <h2>Contacto</h2>
+                <form action="" method="GET" enctype="">
+                    <div>
+                        <label for="name"> Nombre </label>
+                        <input type="text" id="name" name="name" placeholder="Nombre" required>
+                    </div>
+                    <div>
+                        <label for="mail"> E-mail </label>
+                        <input type="email" id="mail" name="mail" placeholder="nn@nn.com" required>
+                    </div>
+                    <div>
+                        <label for="telefono"> Telefono </label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Codigo de area + numero" required>
+                    </div>
+                    <span>
+                        <label for="motivo"> Consulta </label>
+                        <input type="radio" id="motivo" name="motivo">
+                    </span>
+                    <span>
+                        <label for="motivo"> Reserva </label>
+                        <input type="radio" id="motivo" name="motivo">
+                    </span>
+                    <div>
+                        <label for="mensaje"> Mensaje </label>
+                        <input type="text" id="mensaje" name="mensaje"
+                            placeholder="Dejanos tu consulta y te responderemos via mail!">
+                    </div>
+                    <button> Enviar </button>
+                </form>
+            </div>
+            <div class="contenedor__chico1">
+                <h2>Whatsapp</h2>
+                <p>Podes consultar nuestra carta, copas de la semana, proximos eventos y hacer tus reservas!</p>
+                <a href="https://wa.me/5491144085012" target="_blank">Escribinos por Whatsapp</a>
+            </div>
+            <div class="contenedor__chico2">
+                <h2>Instagram</h2>
+                <a href="https://www.instagram.com/bardumarchepalermo" target="_blank">Seguinos en Instagram</a>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <!--este ul esprovisorio, se reemplaza por burger menu en header-->
+        <ul class="footer__contenedor__mobile">
+            <li><a class="footer__item__mobile" href="./comer.html">Comer</a></li>
+            <li><a class="footer__item__mobile" href="./beber.html">Beber</a></li>
+            <li><a class="footer__item__mobile" href="./nosotros.html">Nosotros</a></li>
+            <li><a class="footer__item__mobile" href="./donde-estamos.html">Donde estamos </a></li>
+        </ul>
+        <ul class="footer__contenedor">
+            <li class="footer__item"><a href="https://g.page/BarduMarchePalermo?share" target="_blank">
+                    Nicaragua 5949, Buenos Aires</a></li>
+            <li class="footer__item"><a href="https://wa.me/5491144085012" target="_blank">Whatsapp</a></li>
+            <li class="footer__item"><a href="https://www.instagram.com/bardumarchepalermo"
+                    target="_blank">Instagram</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
