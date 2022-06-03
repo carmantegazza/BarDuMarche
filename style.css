@@ -96,14 +96,13 @@ main {
 .principal__contenedor {
     height: 100%;
     display: flex;
-    columns: 1fr 1fr;
-    gap: 1vw;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-content: center;
+    gap: 10vw;
 }
 
 .principal__seccion {
-    width: 100%;
+    width: 40%;
     background-size: cover;
     border: #CEAB93 solid 3px;
     border-radius: 10px;
@@ -113,14 +112,15 @@ main {
 }
 
 .principal__seccion a {
-    height: 50%;
+    height: 40%;
     width: 50%;
-    background-color: #e3caa575;
+    background-color: #F7F7F7;
     border: #CEAB93 solid 2px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translate(-175px, -120px);
 }
 
 .principal__seccion a:hover {
