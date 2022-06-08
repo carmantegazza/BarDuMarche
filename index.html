@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>Bar du Marche</title>
 </head>
 
-<body>
-    <header>
-        <nav class="encabezado">
-            <h1 class="encabezado__titulo">BAR DU MARCHE</h1>
-            <ul class="encabezado__menu">
+<body class="container-fluid">
+    <header class="container-fluid">
+        <nav class="row justify-content-between" class="encabezado">
+            <h1 class="col-8" id="encabezado__titulo">BAR DU MARCHE</h1>
+            <ul class="col-4" class="encabezado__menu">
                 <li><a class="encabezado__menu__item" href="./pages/nosotros.html"> Nosotros</a></li>
                 <li><a class="encabezado__menu__item" href="./pages/donde-estamos.html"> Donde estamos </a></li>
                 <li><a class="encabezado__menu__item" href="./pages/contacto.html">Contacto </a></li>
@@ -22,23 +23,21 @@
     </header>
 
     <main>
-        <nav class="principal__contenedor">
-            <div class="principal__seccion" id="seccion__comer">
-                <a class="principal__titulo" href="./pages/comer.html">Comer</a>
+        <nav class="container-fluid" class="principal__contenedor">
+            <div class="row">
+                <div class="principal__seccion" id="seccion__comer">
+                    <a class="principal__titulo" href="./pages/comer.html">Comer</a>
+                </div>
             </div>
-            <div class="principal__seccion" id="seccion__beber">
-                <a class="principal__titulo" href="./pages/beber.html">Beber</a>
+            <div class="row">
+                <div class="principal__seccion" id="seccion__beber">
+                    <a class="principal__titulo" href="./pages/beber.html">Beber</a>
+                </div>
             </div>
         </nav>
     </main>
 
-    <footer>
-        <!-- este ul es provisorio, se reemplaza por burger menu en header-->
-        <ul class="footer__contenedor__mobile">
-            <li><a class="footer__item__mobile" href="./pages/nosotros.html"> Nosotros</a></li>
-            <li><a class="footer__item__mobile" href="./pages/donde-estamos.html"> Donde estamos </a></li>
-            <li><a class="footer__item__mobile" href="./pages/contacto.html">Contacto </a></li>
-        </ul>
+    <footer class="row align-items-end" class="container-fluid">
         <ul class="footer__contenedor">
             <li class="footer__item"><a href="https://g.page/BarduMarchePalermo?share" target="_blank">
                     Nicaragua 5949, Buenos Aires</a></li>
@@ -48,6 +47,7 @@
             </li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

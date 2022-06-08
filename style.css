@@ -39,25 +39,24 @@ h2 {
 body {
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
-    height: 100vh;
+    /*height: 100vh;
     width: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-evenly;*/
     background-color: #F7F7F7;
 }
 
 /*header, all pages*/
-.encabezado {
+/*.encabezado {
     margin: 0 1.5vw;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
+}*/
 
-.encabezado__titulo {
+#encabezado__titulo {
     font-family: 'Arvo', serif;
-    font-size: 36px;
 }
 
 .encabezado__menu {
@@ -93,13 +92,13 @@ main {
 }
 
 /*principal, home*/
-.principal__contenedor {
+/*.principal__contenedor {
     height: 100%;
     display: flex;
     justify-content: flex-end;
     align-content: center;
     gap: 10vw;
-}
+}*/
 
 .principal__seccion {
     width: 40%;
@@ -266,7 +265,7 @@ table {
 
 }*/
 
-@media screen and (max-width: 1000px) {
+/*@media screen and (max-width: 1000px) {
 
     body {
         margin: 1vh 0;
@@ -425,7 +424,7 @@ table {
 
 }
 
-/*esta query no va, pero es lo unico que puedo para que no se ponga en 2 renglones el titulo*/
+esta query no va, pero es lo unico que puedo para que no se ponga en 2 renglones el titulo*
 
 @media screen and (max-width: 235px) {
 
