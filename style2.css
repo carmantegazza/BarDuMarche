@@ -6,6 +6,72 @@ h1 {
     font-family: 'Arvo', serif;
 }
 
-.navbar {
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5em;
+}
+
+main {
+    height: 74vh;
+    margin: 3vh 1vw;
+}
+
+.principal__contenedor {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 10vw;
+}
+
+.principal__seccion {
+    width: 40%;
+    background-size: cover;
+    border: #CEAB93 solid 3px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal__seccion a {
+    height: 40%;
+    width: 50%;
+    background-color: #F7F7F7;
+    border: #CEAB93 solid 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-175px, -120px);
+}
+
+.principal__seccion a:hover {
     background-color: #E3CAA5;
 }
+
+.principal__titulo {
+    font-size: 30px;
+}
+
+#seccion__comer {
+    background-image: url('./images/eat-bg.jpeg');
+}
+
+#seccion__beber {
+    background-image: url('./images/drink-bg.jpeg');
+}
+
+
+.navbar, footer {
+    background-color: #E3CAA5;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #5E0B15;
+}
+
