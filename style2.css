@@ -4,55 +4,26 @@
 
 h1 {
     font-family: 'Arvo', serif;
+    color: white;
 }
 
 body {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.5em;
 }
 
-/*main {
-    height: 74vh;
-    margin: 3vh 1vw;
+#cartaComida {
+    background-image: url(./images/eat-bg.jpeg);
 }
-
-/*.principal__contenedor {
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    gap: 10vw;
-}
-#seccion__comer {
-    background-image: url('./images/eat-bg.jpeg');
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#seccion__beber {
-    height: 100%;
-    background-image: url('./images/drink-bg.jpeg');
-    background-size: cover;
-    border: #CEAB93 solid 3px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}*/
 
 .navbar, footer {
-    background-color: #E3CAA5;
+    background-color: #ce331f;
 }
 
 .nav-link {
-    color: black;
+    color: antiquewhite;
 }
 
 .nav-link:hover {
-    color: #5E0B15;
+    color: black;
 }
 
