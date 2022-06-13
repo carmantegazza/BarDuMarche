@@ -16,7 +16,7 @@ body {
 }
 
 .navbar, footer {
-    background-color: #ce331f;
+    background-color: #DD4740;
 }
 
 .nav-link {
@@ -27,3 +27,18 @@ body {
     color: black;
 }
 
+.navbar-toggler {
+    background-color: antiquewhite;
+}
+
+main a {
+    list-style: none;
+    text-decoration: none;
+    background-color: rgba(250, 235, 215, 0.836);
+    border-radius: 10px;
+}
+
+main a:hover {
+    color: #ce331f;
+
+}
