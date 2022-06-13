@@ -42,14 +42,14 @@ footer {
 }
 
 /*home*/
-main a {
+#linkHome {
     list-style: none;
     text-decoration: none;
     background-color: rgba(250, 235, 215, 0.836);
     border-radius: 10px;
 }
 
-main a:hover {
+#linkHome:hover {
     color: #ce331f;
 }
 
@@ -66,4 +66,11 @@ main a:hover {
 /*contacto*/
 button:hover {
     color: #DD4740;
+}
+
+main a {
+    color: black;
+    text-decoration: none;
+    border: 0.1rem solid #DD4740;
+    border-radius: 0.2rem;
 }
