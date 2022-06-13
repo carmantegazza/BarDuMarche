@@ -11,57 +11,38 @@ body {
     font-size: 1.5em;
 }
 
-main {
+/*main {
     height: 74vh;
     margin: 3vh 1vw;
 }
 
-.principal__contenedor {
+/*.principal__contenedor {
     height: 100%;
     display: flex;
     justify-content: flex-end;
     align-content: center;
     gap: 10vw;
 }
+#seccion__comer {
+    background-image: url('./images/eat-bg.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.principal__seccion {
-    width: 40%;
+}
+
+#seccion__beber {
+    height: 100%;
+    background-image: url('./images/drink-bg.jpeg');
     background-size: cover;
     border: #CEAB93 solid 3px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-.principal__seccion a {
-    height: 40%;
-    width: 50%;
-    background-color: #F7F7F7;
-    border: #CEAB93 solid 2px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translate(-175px, -120px);
-}
-
-.principal__seccion a:hover {
-    background-color: #E3CAA5;
-}
-
-.principal__titulo {
-    font-size: 30px;
-}
-
-#seccion__comer {
-    background-image: url('./images/eat-bg.jpeg');
-}
-
-#seccion__beber {
-    background-image: url('./images/drink-bg.jpeg');
-}
-
+}*/
 
 .navbar, footer {
     background-color: #E3CAA5;

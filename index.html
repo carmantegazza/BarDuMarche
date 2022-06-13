@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md" class="encabezado">
+        <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
                 <h1>BAR DU MARCHE</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -22,12 +22,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-md-0" class="encabezado__menu">
-                        <li class="nav-item"><a class="nav-link" class="encabezado__menu__item"
+                    <ul class="navbar-nav ms-auto mb-2 mb-md-0" >
+                        <li class="nav-item"><a class="nav-link"
                                 href="./pages/nosotros.html"> Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" class="encabezado__menu__item"
+                        <li class="nav-item"><a class="nav-link"
                                 href="./pages/donde-estamos.html"> Donde estamos </a></li>
-                        <li class="nav-item"><a class="nav-link" class="encabezado__menu__item"
+                        <li class="nav-item"><a class="nav-link"
                                 href="./pages/contacto.html">Contacto </a></li>
                     </ul>
                 </div>
@@ -35,25 +35,29 @@
     </header>
 
     <main>
-        <nav class="principal__contenedor">
-            <div class="principal__seccion" id="seccion__comer">
-                <a class="principal__titulo" href="./pages/comer.html">Comer</a>
+        <div class="container-fluid my-3 my-md-2">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./images/eat-bg.jpeg" class="img-fluid rounded">
+                    <a href="./pages/comer.html">Comer</a> </div>
+                <div class="col-md-6">
+                    <img src="./images/drink-bg.jpeg" class="img-fluid rounded">
+                    <a href="./pages/beber.html">Beber</a> </div>
+
+                </div>
             </div>
-            <div class="principal__seccion" id="seccion__beber">
-                <a class="principal__titulo" href="./pages/beber.html">Beber</a>
-            </div>
-        </nav>
+        </div>
     </main>
 
     <footer>
         <div class="container-fluid">
-            <ul class="nav justify-content-center" class="footer__contenedor">
-                <li class="nav-item" class="footer__item"><a class="nav-link"
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link"
                         href="https://g.page/BarduMarchePalermo?share" target="_blank">
                         Nicaragua 5949, Buenos Aires</a></li>
-                <li class="nav-item" class="footer__item"><a class="nav-link" href="https://wa.me/5491144085012"
+                <li class="nav-item"><a class="nav-link" href="https://wa.me/5491144085012"
                         target="_blank">Whatsapp</a></li>
-                <li class="nav-item" class="footer__item"><a class="nav-link"
+                <li class="nav-item"><a class="nav-link"
                         href="https://www.instagram.com/bardumarchepalermo" target="_blank">Instagram</a>
                 </li>
             </ul>
