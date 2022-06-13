@@ -26,55 +26,70 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                         <li class="nav-item px-1 h3"><a class="nav-link" href="./comer.html">Comer</a></li>
                         <li class="nav-item px-1 h3"><a class="nav-link" href="./beber.html">Beber</a></li>
-                        <li class="nav-item px-1 h3"><a class="nav-link" href="./donde-estamos.html">Donde estamos</a></li>
-                        <li class="nav-item px-1 h3"><a class="nav-link disabled" href="./contacto.html">Contacto</a></li>
+                        <li class="nav-item px-1 h3"><a class="nav-link" href="./donde-estamos.html">Donde estamos</a>
+                        </li>
+                        <li class="nav-item px-1 h3"><a class="nav-link disabled" href="./contacto.html">Contacto</a>
+                        </li>
                     </ul>
                 </div>
         </nav>
+    </header>
 
     <main>
-        <div class="pagina__contenedor" id="mainContacto">
-            <div class="contenedor__grande">
-                <h2>Contacto</h2>
-                <form action="" method="GET" enctype="">
-                    <div>
-                        <label for="name"> Nombre </label>
-                        <input type="text" id="name" name="name" placeholder="Nombre" required>
+        <div class="container-fluid my-3 my-md-2">
+            <div class="row justify-content-around">
+                <div class=" col-10 col-md-5 rounded border mb-3 mb-md-0">
+                    <p class="row justify-content-center mt-2 h3">Contacto</p>
+                    <form action="" method="GET" enctype="">
+                        <div>
+                            <label for="name" class="form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Nombre">
+
+                        </div>
+                        <div class="mt-2">
+                            <label for="mail" class="form-label">E-mail:</label>
+                            <input type="email" class="form-control" id="mail" placeholder="nombre@mail.com">
+
+                        </div>
+                        <div class="mt-2">
+                            <label for="telefono" class="form-label">Telefono:</label>
+                            <input type="tel" class="form-control" id="telefono" placeholder="Codigo de area + numero">
+                        </div>
+                        <div class="row justify-content-start mt-2">
+                            <span class="col-auto">
+                                <label for="motivo" class="form-check-label" for="flexRadioDefault1"
+                                    name="motivo">Consulta</label>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                            </span>
+                            <span class="col-auto">
+                                <label for="motivo" class="form-check-label" for="flexRadioDefault1">Evento</label>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                            </span>
+                        </div>
+                        <div class="mt-2">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Dejanos tu mensaje, y te respondemos via mail!"></textarea>
+                            <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        </div>
+                        <div class="row justify-content-end my-2 mx-2 rounded" id="boton">
+                            <button type="button" class="btn btn-light">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-10 col-md-5 rounded">
+                    <div class="row border">
+                        <p>Podes consultar nuestra carta, copas de la semana, proximos eventos y hacer tus reservas!
+                        </p>
+                        <a href="https://wa.me/5491144085012" target="_blank">Escribinos por Whatsapp</a>
                     </div>
-                    <div>
-                        <label for="mail"> E-mail </label>
-                        <input type="email" id="mail" name="mail" placeholder="nn@nn.com" required>
+                    <div class="row border h-auto">
+                        <a href="https://www.instagram.com/bardumarchepalermo" target="_blank">Seguinos en
+                            Instagram</a>
                     </div>
-                    <div>
-                        <label for="telefono"> Telefono </label>
-                        <input type="tel" id="telefono" name="telefono" placeholder="Codigo de area + numero" required>
-                    </div>
-                    <span>
-                        <label for="motivo"> Consulta </label>
-                        <input type="radio" id="motivo" name="motivo">
-                    </span>
-                    <span>
-                        <label for="motivo"> Reserva </label>
-                        <input type="radio" id="motivo" name="motivo">
-                    </span>
-                    <div>
-                        <label for="mensaje"> Mensaje </label>
-                        <input type="text" id="mensaje" name="mensaje"
-                            placeholder="Dejanos tu consulta y te responderemos via mail!">
-                    </div>
-                    <button> Enviar </button>
-                </form>
+                </div>
             </div>
-            <div class="contenedor__chico1">
-                <h2>Whatsapp</h2>
-                <p>Podes consultar nuestra carta, copas de la semana, proximos eventos y hacer tus reservas!</p>
-                <a href="https://wa.me/5491144085012" target="_blank">Escribinos por Whatsapp</a>
-            </div>
-            <div class="contenedor__chico2">
-                <h2>Instagram</h2>
-                <a href="https://www.instagram.com/bardumarchepalermo" target="_blank">Seguinos en Instagram</a>
-            </div>
-        </div>
         </div>
     </main>
 

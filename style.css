@@ -36,6 +36,11 @@ footer {
     background-color: antiquewhite;
 }
 
+#boton {
+    border: solid 0.1rem #DD4740;
+    border-radius: 0.5rem;
+}
+
 /*home*/
 main a {
     list-style: none;
@@ -56,4 +61,9 @@ main a:hover {
 /*beber*/
 #cartaBebida {
     background-image: url(./images/drink-bg.jpeg);
+}
+
+/*contacto*/
+button:hover {
+    color: #DD4740;
 }
