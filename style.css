@@ -64,11 +64,7 @@ footer {
 }
 
 /*contacto*/
-button:hover {
-    color: #DD4740;
-}
-
-main a {
+#linkContacto {
     color: black;
     text-decoration: none;
     border: 0.1rem solid #DD4740;
