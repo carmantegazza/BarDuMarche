@@ -36,71 +36,151 @@
     </header>
 
     <main>
-        <div class="container-fluid my-3 my-md-2">
-            <div class="row justify-content-around rounded mx-3 mx-md-2" id="cartaBebida">
-                <div class="col-8 py-3 py-md-2">
-                    <ul class="list-group">
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 1
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 2
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 3
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 4
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 5
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 6
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 7
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 8
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 9
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 10
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 11
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 12
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 13
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 14
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 15
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 16
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 17
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 18
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 19
-                            <span>$precio</span></li>
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            vino 20
-                            <span>$precio</span></li>
-                    </ul>
+        <div class="container-fluid my-2 my-md-2">
+            <div class="row justify-content-around rounded mx-1 mx-md-2" id="cartaBebida">
+                <div class="list-group flex-md-row p-3" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active text-center w-md-25 p-2 rounded border bg-danger"
+                        data-bs-toggle="list" href="#list-espumantes" role="tab">Espumantes</a>
+                    <a class="list-group-item list-group-item-action text-center w-md-25 p-2 rounded border bg-danger" data-bs-toggle="list"
+                        href="#list-blancos" role="tab">Blancos</a>
+                    <a class="list-group-item list-group-item-action text-center w-md-25 p-2 rounded border bg-danger" data-bs-toggle="list"
+                        href="#list-rosados" role="tab">Rosados</a>
+                    <a class="list-group-item list-group-item-action text-center w-md-25 p-2 rounded border bg-danger" data-bs-toggle="list"
+                        href="#list-tintos" role="tab">Tintos</a>
+                </div>
+                <div class="tab-content p-3">
+                    <div class="tab-pane active" id="list-espumantes" role="tabpanel">
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino espumante 1
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 2
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 3
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 4
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 5
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 6
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 7
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 8
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 9
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 10
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="list-blancos" role="tabpanel">
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino blanco 1
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 2
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 3
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 4
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 5
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 6
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 7
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 8
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 9
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 10
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="list-rosados" role="tabpanel">
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino rosado 1
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 2
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 3
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 4
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 5
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 6
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 7
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 8
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 9
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 10
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="list-tintos" role="tabpanel">
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino tinto 1
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 2
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 3
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 4
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 5
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 6
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 7
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 8
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 9
+                                <span>$precio</span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                vino 10
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
