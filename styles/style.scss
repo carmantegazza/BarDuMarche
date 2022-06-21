@@ -1,0 +1,71 @@
+@import "tipografia";
+@import "colores";
+
+h1 {
+    color: $color-logo;
+}
+
+header {
+    .navbar {
+        background-color: $color-bg;
+    }
+    .nav-link {
+        color: $color-texto-light;
+        &:hover {
+            color: $color-texto-dark;
+            background-color: $color-faded;
+            border-radius: 0.2rem;      
+        }
+    }
+    .navbar-toggler {
+        background-color: $color-faded;
+    }   
+}
+
+footer {
+    background-color: $color-bg;
+    .nav-link {
+        color: $color-texto-light;
+        &:hover {
+            color: $color-texto-dark;
+        }
+    }
+}
+
+/*home*/
+#linkHome {
+    list-style: none;
+    text-decoration: none;
+    color: $color-bg;
+    background-color: $color-faded;
+    border-radius: 0.5rem;
+    &:hover{
+        color: $color-texto-light;
+        background-color: $color-texto-dark;
+    }
+}
+
+/*comer*/
+#cartaComida {
+    background-image: url(./images/eat-bg.jpeg);
+    background-size: cover;
+}
+
+/*beber*/
+#cartaBebida {
+    background-image: url(./images/drink-bg.jpeg);
+    background-size: cover;
+}
+
+/*contacto*/
+#linkContacto {
+    color: $color-texto-dark;
+    text-decoration: none;
+    border: $color-bg 0.1rem solid;
+    border-radius: 0.2rem;
+}
+
+#boton {
+    border: $color-bg solid 0.1rem;
+    border-radius: 0.5rem;
+}
