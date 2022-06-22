@@ -1,18 +1,21 @@
-@import "tipografia";
 @import "colores";
+@import "tipografia";
+@import "otrasVar";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-h1 {
-    color: $color-logo;
+
+/*h1 {
+    color: $color-light;
 }
 
 header {
     .navbar {
-        background-color: $color-bg;
+        background-color: $color-marca;
     }
     .nav-link {
-        color: $color-texto-light;
+        color: $color-light;
         &:hover {
-            color: $color-texto-dark;
+            color: $color-dark;
             background-color: $color-faded;
             border-radius: 0.2rem;      
         }
@@ -23,49 +26,59 @@ header {
 }
 
 footer {
-    background-color: $color-bg;
+    background-color: $color-marca;
     .nav-link {
-        color: $color-texto-light;
+        color: $color-light;
         &:hover {
-            color: $color-texto-dark;
+            color: $color-dark;
         }
     }
 }
+*/
+
+@mixin borderCartel {
+    border: 0.1rem solid $color-gold;
+    border-radius: 0.5rem;
+}
+
 
 /*home*/
-#linkHome {
-    list-style: none;
+#linkIndex {
+    @include borderCartel;
     text-decoration: none;
-    color: $color-bg;
+    font-size: 2rem; 
+    padding: 3rem;   
+    color: $color-marca;
     background-color: $color-faded;
-    border-radius: 0.5rem;
+    width: 40%;
+    text-align: center;
     &:hover{
-        color: $color-texto-light;
-        background-color: $color-texto-dark;
+        color: $color-light;
+        background-color: $color-dark;
     }
 }
 
 /*comer*/
 #cartaComida {
-    background-image: url(./images/eat-bg.jpeg);
+    background-image: url(../images/eat-bg.jpeg);
     background-size: cover;
 }
 
 /*beber*/
 #cartaBebida {
-    background-image: url(./images/drink-bg.jpeg);
+    background-image: url(../images/drink-bg.jpeg);
     background-size: cover;
 }
 
 /*contacto*/
 #linkContacto {
-    color: $color-texto-dark;
+    color: $color-dark;
     text-decoration: none;
-    border: $color-bg 0.1rem solid;
+    border: $color-marca 0.1rem solid;
     border-radius: 0.2rem;
 }
 
 #boton {
-    border: $color-bg solid 0.1rem;
+    border: $color-marca solid 0.1rem;
     border-radius: 0.5rem;
 }

@@ -1,7 +1,18 @@
-/*colores*/
+/*colores**/
 
-$color-logo: white;
-$color-bg: #DD4740;
-$color-texto-light: #FFE6AB;
-$color-texto-dark: #380907;
-$color-faded: #ffe6abb2;
+$color-marca: #DD4740;
+$color-gold: #EBA83A;
+$color-light: #FFF8D9;
+$color-dark: #4A3933;
+$color-faded: #fff8d99f;
+
+/*override bootstrap variables*/
+
+
+/*header*/
+
+
+
+/*beber*/
+$list-group-color: $color-dark;
+$list-group-bg: $color-faded;
