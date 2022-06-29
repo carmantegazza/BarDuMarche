@@ -1,0 +1,69 @@
+/*generales*/
+
+/*header*/
+.titulo {
+    color: white;
+}
+
+header {
+    background-color: $color-marca;
+    .nav-link {
+        color: $color-light;
+        &:hover {
+            color: $color-dark;
+            background-color: $color-light;
+            border-radius: 0.2rem;
+        }
+    }
+    .navbar-toggler {
+        background-color: $color-faded;
+    }
+}
+
+/*footer*/
+footer {
+    @extend header;
+    .nav-link:hover {
+        color: $color-dark;
+        background-color: $color-marca;
+    }
+}
+
+/*bordes*/
+@mixin borderCartel {
+    border: 0.2rem solid $color-dark;
+    border-radius: 0.5rem;
+}
+
+/*botones de link*/
+#linkIndex {
+    @include borderCartel;
+    text-decoration: none;
+    text-align: center;
+    background-color: $color-faded;
+    padding: 2rem 0;
+    width: 40%;
+    &:hover {
+        color: $color-light;
+        background-color: $color-marca;
+    }
+}
+
+#linkContacto {
+    @include borderCartel;
+    color: map-get($colores, "dark");
+    text-decoration: none;
+    text-align: center;
+    width: 70%;
+    padding: 1rem 0;
+}
+
+/*imagenes de fondo*/
+#cartaComida {
+    background-image: url(../images/eat-bg.jpeg);
+    background-size: cover;
+}
+#cartaBebida {
+    background-image: url(../images/drink-bg.jpeg);
+    background-size: cover;
+}

@@ -6,13 +6,10 @@ $color-light: #FFF8D9;
 $color-dark: #4A3933;
 $color-faded: #fff8d99f;
 
-/*override bootstrap variables*/
-
-
-/*header*/
-
-
-
-/*beber*/
-$list-group-color: $color-dark;
-$list-group-bg: $color-faded;
+$colores: (
+    "marca": $color-marca,
+    "gold": $color-gold,
+    "light": $color-light,
+    "dark": $color-dark,
+    "faded": $color-faded,
+);
