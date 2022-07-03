@@ -13,19 +13,19 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md pt-3">
+        <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
-                <h1 class="titulo">BAR DU MARCHE</h1>
+                <h1>BAR DU MARCHE</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-                        <li class="nav-item h2"><a class="nav-link" href="./pages/donde-estamos.html"> Donde estamos
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="./pages/donde-estamos.html">DONDE ESTAMOS
                             </a></li>
-                        <li class="nav-item h2"><a class="nav-link" href="./pages/contacto.html">Contacto </a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">CONTACTO</a></li>
                     </ul>
                 </div>
             </div>
@@ -34,30 +34,36 @@
 
     <main>
         <div class="container-fluid">
-            <div class="row justify-content-around m-3">
-                <div class="col-10 col-md-6 position-relative">
-                    <img src="./images/eat-bg-min.jpeg" class="img-fluid rounded">
-                    <a class="position-absolute top-50 start-50 translate-middle w-50 h2" id="linkIndex"
-                        href="./pages/comer.html">Comer</a> </div>
-                <div class="col-10 col-md-6 position-relative  mt-3 mt-md-0">
-                    <img src="./images/drink-bg-min.jpeg" class="img-fluid rounded">
-                    <a class="position-absolute top-50 start-50 translate-middle w-50 h2" id="linkIndex"
-                        href="./pages/beber.html">Beber</a> </div>
+            <div class="row">
+                <div class="carousel-slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/quesos.jpg" class="d-block w-100" alt="Brunch">
+                            <a class="position-absolute top-50 start-50 translate-middle w-50" id="linkIndex"
+                                href="./pages/comer.html">Comer</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/vino-blanco.jpg" class="d-block w-100" alt="Espumantes">
+                        <a class="position-absolute top-25 start-50 translate-middle w-50" id="linkIndex"
+                            href="./pages/beber.html">Beber</a>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
 
     <footer>
-        <div class="navbar navbar-expand pt-3">
+        <div class="navbar navbar-expand">
             <div class="container-fluid justify-content-center">
                 <ul class="navbar-nav">
-                    <li class="nav-item h3"><a class="nav-link" href="https://g.page/BarduMarchePalermo?share"
+                    <li class="nav-item"><a class="nav-link" href="https://g.page/BarduMarchePalermo?share"
                             target="_blank">
                             Nicaragua 5949, Buenos Aires</a></li>
-                    <li class="nav-item h3"><a class="nav-link" href="https://wa.me/5491144085012"
-                            target="_blank">Whatsapp</a></li>
-                    <li class="nav-item h3"><a class="nav-link" href="https://www.instagram.com/bardumarchepalermo"
-                            target="_blank">Instagram</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://wa.me/5491144085012"
+                            target="_blank">WHATSAPP</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/bardumarchepalermo"
+                            target="_blank">INSTAGRAM</a></li>
                 </ul>
             </div>
         </div>

@@ -1,11 +1,15 @@
 /*generales*/
-
-/*header*/
-.titulo {
-    color: white;
+header .nav-link:hover {
+    background-color: $color-light;
+    border-radius: 0.2rem;
 }
 
-header {
+
+
+/*header*/
+
+
+/*header {
     background-color: $color-marca;
     .nav-link {
         color: $color-light;
@@ -18,20 +22,20 @@ header {
     .navbar-toggler {
         background-color: $color-faded;
     }
-}
+}*/
 
-/*footer*/
+/*footer
 footer {
     @extend header;
     .nav-link:hover {
         color: $color-dark;
         background-color: $color-marca;
     }
-}
+}*/
 
 /*bordes*/
 @mixin borderCartel {
-    border: 0.2rem solid $color-dark;
+    border: 0.3rem double $color-gold;
     border-radius: 0.5rem;
 }
 
