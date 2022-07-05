@@ -2154,7 +2154,7 @@ progress {
 }
 
 .table-group-divider {
-  border-top: calc(2 * $table-border-width) solid currentcolor;
+  border-top: calc(2 * table-border-width) solid currentcolor;
 }
 
 .caption-top {
