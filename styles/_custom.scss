@@ -4,70 +4,81 @@ header .nav-link:hover {
     border-radius: 0.2rem;
 }
 
+.titulo {
+    text-decoration: none;
+    color: $color-marca;
 
-
-/*header*/
-
-
-/*header {
-    background-color: $color-marca;
-    .nav-link {
-        color: $color-light;
-        &:hover {
-            color: $color-dark;
-            background-color: $color-light;
-            border-radius: 0.2rem;
-        }
-    }
-    .navbar-toggler {
-        background-color: $color-faded;
-    }
-}*/
-
-/*footer
-footer {
-    @extend header;
-    .nav-link:hover {
+    &:hover {
         color: $color-dark;
-        background-color: $color-marca;
     }
-}*/
+}
 
 /*bordes*/
-@mixin borderCartel {
-    border: 0.3rem double $color-gold;
+@mixin bordeEspecial {
+    border: 0.3rem double $color-marca;
     border-radius: 0.5rem;
 }
 
-/*botones de link*/
-#linkIndex {
-    @include borderCartel;
+#cuadroIndex {
+    @include bordeEspecial;
     text-decoration: none;
-    text-align: center;
     background-color: $color-faded;
-    padding: 2rem 0;
-    width: 40%;
+
     &:hover {
-        color: $color-light;
-        background-color: $color-marca;
+        background-color: $color-light;
     }
 }
 
-#linkContacto {
-    @include borderCartel;
-    color: map-get($colores, "dark");
+#cuadroHorarios {
+    @include bordeEspecial;
+    background-color: $color-faded;
+}
+
+#botonWhatsapp {
+    @include bordeEspecial;
     text-decoration: none;
-    text-align: center;
-    width: 70%;
-    padding: 1rem 0;
+
+    &:hover {
+        background-color: $color-light;
+    }
+}
+
+/*textos*/
+#cursiva {
+    font-style: italic;
+    text-align: justify;
 }
 
 /*imagenes de fondo*/
-#cartaComida {
-    background-image: url(../images/eat-bg-min.jpeg);
+#cartaComer {
+    background-image: url(../images/comida-carta-min.jpg);
     background-size: cover;
 }
-#cartaBebida {
-    background-image: url(../images/drink-bg-min.jpeg);
+
+#cartaBeber {
+    background-image: url(../images/bebida-index-desktop-min.jpg);
     background-size: cover;
+}
+
+#fondoNosotros {
+    background-image: url(../images/bar-desktop-min.jpg);
+    background-size: cover;
+}
+
+#fondoContacto {
+    background-color: $color-faded;
+}
+
+/*media queries, para adaptar imagenes index*/
+
+@media screen and (max-width: 768px) {
+    #imgIndexDesktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #imgIndexMobile {
+        display: none;
+    }
 }

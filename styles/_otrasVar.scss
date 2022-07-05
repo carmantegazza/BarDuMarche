@@ -1,5 +1,10 @@
 /*variables de boostrap modificadas*/
 
+/*colores del mapa*/
+$primary: $color-marca;
+$body-color: $color-dark;
+$body: $color-marca;
+
 /*position, para translate*/
 $position-values: (
   0: 0,
@@ -7,19 +12,11 @@ $position-values: (
   100: 100%
 );
 $custom-position: (
-    25: 25%,
+    25: 30%,
     75: 75%, 
 );
 $position-values : map-merge($position-values, $custom-position);
 
-/*color titulos*/
-$headings-color: $color-dark;
-
-/*color background
-$primary: $color-dark;
-$secondary: $color-light;*/
-
 /*list-group, para cartas*/
-$list-group-hover-bg: $color-dark;
 $list-group-bg: $color-faded;
 $list-group-border-color: $color-dark;

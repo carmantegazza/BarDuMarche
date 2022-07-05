@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bar de vinos por copa y pequeños platos, Palermo, Buenos Aires">
-    <meta name="keywords" content="bar, vinos, vinos importados, vinos nacionales, vinos por copa, espumantes, tintos, blancos, rosados">
+    <meta name="keywords"
+        content="bar, vinos, vinos importados, vinos nacionales, vinos por copa, espumantes, tintos, blancos, rosados">
     <link rel="stylesheet" href="../styles/style.css">
     <title>Bar du Marche > Beber</title>
 </head>
@@ -15,21 +16,19 @@
     <header>
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
-                    <h1 class="titulo">BAR DU MARCHE</h1>
-                </a>
+                <h1><a class="titulo" href="../index.html">BAR DU MARCHE</a></h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-                        <li class="nav-item px-1 h3"><a class="nav-link" href="./comer.html">Comer</a></li>
-                        <li class="nav-item px-1 h3"><a class="nav-link disabled" href="./beber.html">Beber</a></li>
-                        <li class="nav-item px-1 h3"><a class="nav-link" href="./donde-estamos.html">Donde estamos</a>
-                        </li>
-                        <li class="nav-item px-1 h3"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../pages/comer.html">COMER</a></li>
+                        <li class="nav-item"><a class="nav-link disabled" href="../pages/beber.html">BEBER</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/nosotros.html">NOSOTROS
+                            </a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/contacto.html">CONTACTO</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,149 +36,153 @@
     </header>
 
     <main>
-        <div class="container-fluid">
-            <div class="row justify-content-around" id="cartaBebida">
+        <div class="container-fluid" id="cartaBeber">
+            <div class="row justify-content-around">
                 <div class="list-group flex-md-row p-3" id="list-tab" role="tablist">
                     <a class="list-group-item list-group-item-action active text-center w-md-25 m-1 rounded"
-                        data-bs-toggle="list" href="#list-espumantes" role="tab">Espumantes</a>
-                    <a class="list-group-item list-group-item-action text-center w-md-25 m-1 rounded" data-bs-toggle="list"
-                        href="#list-blancos" role="tab">Blancos</a>
-                    <a class="list-group-item list-group-item-action text-center w-md-25 m-1 rounded" data-bs-toggle="list"
-                        href="#list-rosados" role="tab">Rosados</a>
-                    <a class="list-group-item list-group-item-action text-center w-md-25 m-1 rounded" data-bs-toggle="list"
-                        href="#list-tintos" role="tab">Tintos</a>
+                        data-bs-toggle="list" href="#list-b1" role="tab">Vinos por copa</a>
+                    <a class="list-group-item list-group-item-action text-center w-md-25 m-1 rounded"
+                        data-bs-toggle="list" href="#list-b2" role="tab">Vinos Nacionales</a>
+                    <a class="list-group-item list-group-item-action text-center w-md-25 m-1 rounded"
+                        data-bs-toggle="list" href="#list-b3" role="tab">Vinos Importados</a>
+                    <a class="list-group-item list-group-item-action text-center w-md-25 m-1 rounded"
+                        data-bs-toggle="list" href="#list-b4" role="tab">Tragos</a>
                 </div>
                 <div class="tab-content p-3">
-                    <div class="tab-pane active" id="list-espumantes" role="tabpanel">
+                    <div class="tab-pane fade show active" id="list-b1" role="tabpanel">
                         <ul class="list-group">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino espumante 1
-                                <span>$precio</span></li>
+                                item1
+                                <span>precio1</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 2
-                                <span>$precio</span></li>
+                                item2
+                                <span>precio2</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 3
-                                <span>$precio</span></li>
+                                item3
+                                <span>precio3</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 4
-                                <span>$precio</span></li>
+                                item4
+                                <span>precio4</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 5
-                                <span>$precio</span></li>
+                                item5
+                                <span>precio5</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 6
-                                <span>$precio</span></li>
+                                item6
+                                <span>precio6</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 7
-                                <span>$precio</span></li>
+                                item7
+                                <span>precio7</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 8
-                                <span>$precio</span></li>
+                                item8
+                                <span>precio8</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 9
-                                <span>$precio</span></li>
+                                item9
+                                <span>precio9</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 10
+                                item10
+                                <span>precio10</span></li>
                         </ul>
                     </div>
-                    <div class="tab-pane" id="list-blancos" role="tabpanel">
+                    <div class="tab-pane fade" id="list-b2" role="tabpanel">
                         <ul class="list-group">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino blanco 1
-                                <span>$precio</span></li>
+                                item1
+                                <span>precio1</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 2
-                                <span>$precio</span></li>
+                                item2
+                                <span>precio2</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 3
-                                <span>$precio</span></li>
+                                item3
+                                <span>precio3</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 4
-                                <span>$precio</span></li>
+                                item4
+                                <span>precio4</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 5
-                                <span>$precio</span></li>
+                                item5
+                                <span>precio5</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 6
-                                <span>$precio</span></li>
+                                item6
+                                <span>precio6</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 7
-                                <span>$precio</span></li>
+                                item7
+                                <span>precio7</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 8
-                                <span>$precio</span></li>
+                                item8
+                                <span>precio8</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 9
-                                <span>$precio</span></li>
+                                item9
+                                <span>precio9</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 10
+                                item10
+                                <span>precio10</span></li>
                         </ul>
                     </div>
-                    <div class="tab-pane" id="list-rosados" role="tabpanel">
+                    <div class="tab-pane fade" id="list-b3" role="tabpanel">
                         <ul class="list-group">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino rosado 1
-                                <span>$precio</span></li>
+                                item1
+                                <span>precio1</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 2
-                                <span>$precio</span></li>
+                                item2
+                                <span>precio2</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 3
-                                <span>$precio</span></li>
+                                item3
+                                <span>precio3</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 4
-                                <span>$precio</span></li>
+                                item4
+                                <span>precio4</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 5
-                                <span>$precio</span></li>
+                                item5
+                                <span>precio5</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 6
-                                <span>$precio</span></li>
+                                item6
+                                <span>precio6</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 7
-                                <span>$precio</span></li>
+                                item7
+                                <span>precio7</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 8
-                                <span>$precio</span></li>
+                                item8
+                                <span>precio8</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 9
-                                <span>$precio</span></li>
+                                item9
+                                <span>precio9</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 10
+                                item10
+                                <span>precio10</span></li>
                         </ul>
                     </div>
-                    <div class="tab-pane" id="list-tintos" role="tabpanel">
+                    <div class="tab-pane fade" id="list-b4" role="tabpanel">
                         <ul class="list-group">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino tinto 1
-                                <span>$precio</span></li>
+                                item1
+                                <span>precio1</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 2
-                                <span>$precio</span></li>
+                                item2
+                                <span>precio2</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 3
-                                <span>$precio</span></li>
+                                item3
+                                <span>precio3</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 4
-                                <span>$precio</span></li>
+                                item4
+                                <span>precio4</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 5
-                                <span>$precio</span></li>
+                                item5
+                                <span>precio5</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 6
-                                <span>$precio</span></li>
+                                item6
+                                <span>precio6</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 7
-                                <span>$precio</span></li>
+                                item7
+                                <span>precio7</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 8
-                                <span>$precio</span></li>
+                                item8
+                                <span>precio8</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 9
-                                <span>$precio</span></li>
+                                item9
+                                <span>precio9</span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                vino 10
+                                item10
+                                <span>precio10</span></li>
                         </ul>
                     </div>
                 </div>
@@ -188,18 +191,18 @@
     </main>
 
     <footer>
-        <div class="container-fluid">
-            <ul class="nav justify-content-center">
-                <li class="nav-item h3"><a class="nav-link" href="https://g.page/BarduMarchePalermo?share"
-                        target="_blank">
-                        Nicaragua 5949, Buenos Aires</a></li>
-                <li class="nav-item h3"><a class="nav-link" href="https://wa.me/5491144085012"
-                        target="_blank">Whatsapp</a>
-                </li>
-                <li class="nav-item h3"><a class="nav-link" href="https://www.instagram.com/bardumarchepalermo"
-                        target="_blank">Instagram</a>
-                </li>
-            </ul>
+        <div class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-center">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="https://g.page/BarduMarchePalermo?share"
+                            target="_blank">
+                            Nicaragua 5949, Buenos Aires</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://wa.me/5491144085012"
+                            target="_blank">Whatsapp</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/bardumarchepalermo"
+                            target="_blank">Instagram</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
