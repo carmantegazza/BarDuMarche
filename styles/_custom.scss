@@ -4,9 +4,11 @@ header .nav-link:hover {
     border-radius: 0.2rem;
 }
 
+
 .titulo {
     text-decoration: none;
     color: $color-marca;
+
     &:hover {
         color: $color-dark;
     }
@@ -18,7 +20,9 @@ header .nav-link:hover {
     border-radius: 0.5rem;
 }
 
-#cuadroIndex {
+/*cuadros y botones*/
+#cuadroComer,
+#cuadroBeber {
     @include bordeEspecial;
     text-decoration: none;
     background-color: $color-faded;
@@ -33,12 +37,20 @@ header .nav-link:hover {
     background-color: $color-faded;
 }
 
-#botonWhatsapp {
+#botonForm {
     @include bordeEspecial;
-    text-decoration: none;
 
     &:hover {
         background-color: $color-light;
+    }
+}
+
+#botonWhatsapp {
+    @extend #botonForm;
+
+    a {
+        text-decoration: none;
+        color: $color-dark;
     }
 }
 
@@ -55,7 +67,7 @@ header .nav-link:hover {
 }
 
 #cartaBeber {
-    background-image: url(../images/bebida-index-desktop-min.jpg);
+    background-image: url(../images/bebida-carta-min.jpg);
     background-size: cover;
 }
 

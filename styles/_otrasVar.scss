@@ -3,19 +3,6 @@
 /*colores del mapa*/
 $primary: $color-marca;
 $body-color: $color-dark;
-$body: $color-marca;
-
-/*position, para translate*/
-$position-values: (
-  0: 0,
-  50: 50%,
-  100: 100%
-);
-$custom-position: (
-    25: 30%,
-    75: 75%, 
-);
-$position-values : map-merge($position-values, $custom-position);
 
 /*list-group, para cartas*/
 $list-group-bg: $color-faded;

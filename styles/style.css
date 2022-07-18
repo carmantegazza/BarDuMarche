@@ -12,7 +12,6 @@ body {
 
 /*variables de boostrap modificadas*/
 /*colores del mapa*/
-/*position, para translate*/
 /*list-group, para cartas*/
 /*generales*/
 header .nav-link:hover {
@@ -30,14 +29,17 @@ header .nav-link:hover {
 }
 
 /*bordes*/
-#cuadroIndex {
+/*cuadros y botones*/
+#cuadroComer,
+#cuadroBeber {
   border: 0.3rem double #DD4740;
   border-radius: 0.5rem;
   text-decoration: none;
   background-color: #eddfb3d2;
 }
 
-#cuadroIndex:hover {
+#cuadroComer:hover,
+#cuadroBeber:hover {
   background-color: #EDDFB3;
 }
 
@@ -47,14 +49,18 @@ header .nav-link:hover {
   background-color: #eddfb3d2;
 }
 
-#botonWhatsapp {
+#botonForm, #botonWhatsapp {
   border: 0.3rem double #DD4740;
   border-radius: 0.5rem;
-  text-decoration: none;
 }
 
-#botonWhatsapp:hover {
+#botonForm:hover, #botonWhatsapp:hover {
   background-color: #EDDFB3;
+}
+
+#botonWhatsapp a {
+  text-decoration: none;
+  color: #4A3933;
 }
 
 /*textos*/
@@ -70,7 +76,7 @@ header .nav-link:hover {
 }
 
 #cartaBeber {
-  background-image: url(../images/bebida-index-desktop-min.jpg);
+  background-image: url(../images/bebida-carta-min.jpg);
   background-size: cover;
 }
 
@@ -8314,14 +8320,6 @@ fieldset:disabled .btn {
   top: 100% !important;
 }
 
-.top-25 {
-  top: 30% !important;
-}
-
-.top-75 {
-  top: 75% !important;
-}
-
 .bottom-0 {
   bottom: 0 !important;
 }
@@ -8332,14 +8330,6 @@ fieldset:disabled .btn {
 
 .bottom-100 {
   bottom: 100% !important;
-}
-
-.bottom-25 {
-  bottom: 30% !important;
-}
-
-.bottom-75 {
-  bottom: 75% !important;
 }
 
 .start-0 {
@@ -8354,14 +8344,6 @@ fieldset:disabled .btn {
   left: 100% !important;
 }
 
-.start-25 {
-  left: 30% !important;
-}
-
-.start-75 {
-  left: 75% !important;
-}
-
 .end-0 {
   right: 0 !important;
 }
@@ -8372,14 +8354,6 @@ fieldset:disabled .btn {
 
 .end-100 {
   right: 100% !important;
-}
-
-.end-25 {
-  right: 30% !important;
-}
-
-.end-75 {
-  right: 75% !important;
 }
 
 .translate-middle {
