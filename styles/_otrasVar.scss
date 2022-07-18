@@ -4,6 +4,12 @@
 $primary: $color-marca;
 $body-color: $color-dark;
 
+/*colores del nav*/
+$navbar-light-color: rgba($color-dark, .75);
+$navbar-light-disabled-color: $color-light;
+$navbar-light-toggler-border-color: $color-marca;
+
+
 /*list-group, para cartas*/
 $list-group-bg: $color-faded;
 $list-group-border-color: $color-marca;
