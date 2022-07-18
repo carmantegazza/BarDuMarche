@@ -11,13 +11,15 @@ body {
   font-family: 'Nixie One', cursive;
 }
 
-/*variables de boostrap modificadas*/
+/*variables de bootstrap modificadas*/
 /*colores del mapa*/
-/*colores del nav*/
-/*list-group, para cartas*/
+/*colores del nav header y footer*/
+/*colores en listas, para cartas*/
+/*texto, fondo y borde*/
+/*item hover y activo*/
 /*generales*/
 header .nav-link:hover {
-  background-color: rgba(226, 194, 117, 0.45);
+  background-color: rgba(237, 223, 179, 0.6);
   border-radius: 0.2rem;
 }
 
@@ -37,18 +39,18 @@ header .nav-link:hover {
   border: 0.3rem double #DD4740;
   border-radius: 0.5rem;
   text-decoration: none;
-  background-color: rgba(226, 194, 117, 0.45);
+  background-color: rgba(237, 223, 179, 0.6);
 }
 
 #cuadroComer:hover,
 #cuadroBeber:hover {
-  background-color: #E2C275;
+  background-color: #EDDFB3;
 }
 
 #cuadroHorarios {
   border: 0.3rem double #DD4740;
   border-radius: 0.5rem;
-  background-color: rgba(226, 194, 117, 0.45);
+  background-color: rgba(237, 223, 179, 0.6);
 }
 
 #botonForm, #botonWhatsapp {
@@ -57,7 +59,7 @@ header .nav-link:hover {
 }
 
 #botonForm:hover, #botonWhatsapp:hover {
-  background-color: #E2C275;
+  background-color: #EDDFB3;
 }
 
 #botonWhatsapp a {
@@ -88,7 +90,7 @@ header .nav-link:hover {
 }
 
 #fondoContacto {
-  background-color: rgba(226, 194, 117, 0.45);
+  background-color: rgba(237, 223, 179, 0.6);
 }
 
 /*media queries, para adaptar imagenes index*/
@@ -4337,8 +4339,8 @@ fieldset:disabled .btn {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(74, 57, 51, 0.75);
-  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
-  --bs-navbar-disabled-color: #E2C275;
+  --bs-navbar-hover-color: #DD4740;
+  --bs-navbar-disabled-color: rgba(74, 57, 51, 0.5);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
@@ -5640,21 +5642,21 @@ fieldset:disabled .btn {
 }
 
 .list-group {
-  --bs-list-group-color: #212529;
-  --bs-list-group-bg: rgba(226, 194, 117, 0.45);
-  --bs-list-group-border-color: #DD4740;
+  --bs-list-group-color: #4A3933;
+  --bs-list-group-bg: rgba(237, 223, 179, 0.6);
+  --bs-list-group-border-color: rgba(221, 71, 64, 0.75);
   --bs-list-group-border-width: 1px;
   --bs-list-group-border-radius: 0.375rem;
   --bs-list-group-item-padding-x: 1rem;
   --bs-list-group-item-padding-y: 0.5rem;
-  --bs-list-group-action-color: #495057;
-  --bs-list-group-action-hover-color: #495057;
-  --bs-list-group-action-hover-bg: #f8f9fa;
+  --bs-list-group-action-color: #EDDFB3;
+  --bs-list-group-action-hover-color: #EDDFB3;
+  --bs-list-group-action-hover-bg: #DD4740;
   --bs-list-group-action-active-color: #4A3933;
   --bs-list-group-action-active-bg: #e9ecef;
   --bs-list-group-disabled-color: #6c757d;
-  --bs-list-group-disabled-bg: rgba(226, 194, 117, 0.45);
-  --bs-list-group-active-color: #fff;
+  --bs-list-group-disabled-bg: rgba(237, 223, 179, 0.6);
+  --bs-list-group-active-color: #EDDFB3;
   --bs-list-group-active-bg: #DD4740;
   --bs-list-group-active-border-color: #DD4740;
   display: -webkit-box;

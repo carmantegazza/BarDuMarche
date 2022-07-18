@@ -1,15 +1,24 @@
-/*variables de boostrap modificadas*/
+/*variables de bootstrap modificadas*/
 
 /*colores del mapa*/
 $primary: $color-marca;
 $body-color: $color-dark;
 
-/*colores del nav*/
+/*colores del nav header y footer*/
 $navbar-light-color: rgba($color-dark, .75);
-$navbar-light-disabled-color: $color-light;
+$navbar-light-hover-color: $color-marca;
+$navbar-light-disabled-color: rgba($color-dark, .50);
 $navbar-light-toggler-border-color: $color-marca;
 
+/*colores en listas, para cartas*/
 
-/*list-group, para cartas*/
+/*texto, fondo y borde*/
+$list-group-color: $color-dark;
 $list-group-bg: $color-faded;
-$list-group-border-color: $color-marca;
+$list-group-border-color: rgba($color-marca, .75);
+
+/*item hover y activo*/
+$list-group-action-color: $color-light;
+$list-group-hover-bg: $color-marca;
+$list-group-active-color: $color-light;
+$list-group-active-bg: $color-marca;
