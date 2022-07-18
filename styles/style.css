@@ -17,7 +17,7 @@ body {
 /*list-group, para cartas*/
 /*generales*/
 header .nav-link:hover {
-  background-color: #DAB88B;
+  background-color: rgba(238, 195, 115, 0.45);
   border-radius: 0.2rem;
 }
 
@@ -37,18 +37,18 @@ header .nav-link:hover {
   border: 0.3rem double #DD4740;
   border-radius: 0.5rem;
   text-decoration: none;
-  background-color: rgba(218, 184, 139, 0.6);
+  background-color: rgba(238, 195, 115, 0.45);
 }
 
 #cuadroComer:hover,
 #cuadroBeber:hover {
-  background-color: #DAB88B;
+  background-color: #EEC373;
 }
 
 #cuadroHorarios {
   border: 0.3rem double #DD4740;
   border-radius: 0.5rem;
-  background-color: rgba(218, 184, 139, 0.6);
+  background-color: rgba(238, 195, 115, 0.45);
 }
 
 #botonForm, #botonWhatsapp {
@@ -57,7 +57,7 @@ header .nav-link:hover {
 }
 
 #botonForm:hover, #botonWhatsapp:hover {
-  background-color: #DAB88B;
+  background-color: #EEC373;
 }
 
 #botonWhatsapp a {
@@ -88,7 +88,7 @@ header .nav-link:hover {
 }
 
 #fondoContacto {
-  background-color: rgba(218, 184, 139, 0.6);
+  background-color: rgba(238, 195, 115, 0.45);
 }
 
 /*media queries, para adaptar imagenes index*/
@@ -4338,7 +4338,7 @@ fieldset:disabled .btn {
   --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(74, 57, 51, 0.75);
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
-  --bs-navbar-disabled-color: #DAB88B;
+  --bs-navbar-disabled-color: #EEC373;
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
@@ -5641,7 +5641,7 @@ fieldset:disabled .btn {
 
 .list-group {
   --bs-list-group-color: #212529;
-  --bs-list-group-bg: rgba(218, 184, 139, 0.6);
+  --bs-list-group-bg: rgba(238, 195, 115, 0.45);
   --bs-list-group-border-color: #DD4740;
   --bs-list-group-border-width: 1px;
   --bs-list-group-border-radius: 0.375rem;
@@ -5653,7 +5653,7 @@ fieldset:disabled .btn {
   --bs-list-group-action-active-color: #4A3933;
   --bs-list-group-action-active-bg: #e9ecef;
   --bs-list-group-disabled-color: #6c757d;
-  --bs-list-group-disabled-bg: rgba(218, 184, 139, 0.6);
+  --bs-list-group-disabled-bg: rgba(238, 195, 115, 0.45);
   --bs-list-group-active-color: #fff;
   --bs-list-group-active-bg: #DD4740;
   --bs-list-group-active-border-color: #DD4740;
