@@ -8,7 +8,6 @@ header .nav-link:hover {
 .titulo {
     text-decoration: none;
     color: $color-marca;
-
     &:hover {
         color: $color-dark;
     }
@@ -26,20 +25,18 @@ header .nav-link:hover {
     @include bordeEspecial;
     text-decoration: none;
     background-color: $color-faded;
-
     &:hover {
         background-color: $color-light;
     }
 }
 
-#cuadroHorarios {
+#cuadroInfoNosotros {
     @include bordeEspecial;
     background-color: $color-faded;
 }
 
 #botonForm {
     @include bordeEspecial;
-
     &:hover {
         background-color: $color-light;
     }
@@ -47,7 +44,6 @@ header .nav-link:hover {
 
 #botonWhatsapp {
     @extend #botonForm;
-
     a {
         text-decoration: none;
         color: $color-dark;
